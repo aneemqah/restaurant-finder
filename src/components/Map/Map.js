@@ -1,7 +1,7 @@
-import React from "react";
-import GoggleMapReact from "google-map-react";
-import useStyles from "./styles";
-import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
+import React from 'react';
+import GoggleMapReact from 'google-map-react';
+import useStyles from './styles';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 
 const Map = ({ setCoordinates, setBounds, coordinates, restaurants }) => {
   const classes = useStyles();
@@ -14,9 +14,8 @@ const Map = ({ setCoordinates, setBounds, coordinates, restaurants }) => {
         center={coordinates}
         defaultZoom={14}
         margin={[50, 50, 50, 50]}
-        options={""}
+        options={''}
         onChange={(e) => {
-          //console.log("HERE I AM", e);
           setCoordinates({ lat: e.center.latitude, lng: e.center.longitude });
           setBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
         }}
