@@ -22,9 +22,8 @@
 
 Create an `.env` file in root directory and add the following variables
 
-REACT_APP_GOOGLE_MAPS_API_KEY=<you-api-key>
-  
-REACT_APP_RAPIDAPI_TRAVEL_API_KEY=<your-api-key>
+REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key"  
+REACT_APP_RAPIDAPI_TRAVEL_API_KEY=your-api-key
 
 Installation
 
